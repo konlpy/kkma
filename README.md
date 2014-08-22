@@ -9,6 +9,32 @@ To employ KKMA in your code, use [org.snu.ids.ha.2.0.jar](org.snu.ids.ha.2.0.jar
 
 For the source code of KKMA v1.0, see [here](http://github.com/serialx/kkma).
 
+## Dictionary files
+
+    $ tree ./dic
+    .
+    ├── ecat                            # Dicts used for Keyword extraction
+    │   ├── ChemFormula.dic             # Chemical formulas
+    │   ├── CompNoun.dic
+    │   ├── JunkWord.dic
+    │   ├── UOM.dic                     # Unit of Measures
+    │   ├── VerbJunkWord.dic
+    │   └── VerbNoun.dic
+    ├── prob
+    │   ├── lnpr_morp.dic
+    │   ├── lnpr_pos.dic
+    │   ├── lnpr_pos_g_exp.dic
+    │   ├── lnpr_pos_g_morp_inter.dic
+    │   ├── lnpr_pos_g_morp_intra.dic
+    │   ├── lnpr_syllable_bi.dic
+    │   └── lnpr_syllable_uni_noun.dic
+    ├── kcc.dic
+    ├── noun.dic
+    ├── person.dic
+    ├── raw.dic
+    ├── simple.dic
+    └── verb.dic
+
 
 ## License
 
